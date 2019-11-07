@@ -7,3 +7,12 @@ first I have learned how to choose a good number of clusters for a dataset using
 Using this information cluster the fish samples into four clusters, and compare the clusters to the fish species using a cross-tabulation.
 I have found that cross-tabulation reult is not promissing. I have further investigated and found very unstable variances. Therefore,
 standerisation applied on the data set that results in an excellent outcome.
+
+# Import modules for this example:
+
+1. pandas
+2. seaborn
+3. KMeans from sklearn.cluster
+4. matplotlib.pyplot
+5. StandardScaler from sklearn.preprocessing  
+6. make_pipeline from sklearn.pipeline 
